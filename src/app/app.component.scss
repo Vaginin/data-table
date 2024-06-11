@@ -1,0 +1,48 @@
+.page {
+  background: #e9f3ff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  height: 100%;
+  background: #e9f3ff;
+  display: flex;
+  flex-direction: column;
+}
+
+.rout {
+  width: 1888px;
+  border-radius: 20px;
+
+}
+
+.header-container {
+  background: #e9f3ff;
+  margin-top: 31px;
+  margin: 0 auto;
+  width: 1888px;
+  height: 81px;
+  display: flex;
+
+  &.header {
+    margin-top: 31px;
+    margin-left: 12px;
+    margin-bottom: 26px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32.81px;
+    letter-spacing: 0.15000000596046448px;
+    color: #2F7FD5;
+  }
+}
+
+::ng-deep mat-form-field[customSearch] {
+  height: 36px;
+  width: 340px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DataTableComponent } from './data-table.component';
+import { AddDataPopupComponent } from './add-data-popup.component';
 
-describe('DataTableComponent', () => {
-  let component: DataTableComponent;
-  let fixture: ComponentFixture<DataTableComponent>;
+describe('AddDataPopupComponent', () => {
+  let component: AddDataPopupComponent;
+  let fixture: ComponentFixture<AddDataPopupComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [DataTableComponent]
+      imports: [AddDataPopupComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(DataTableComponent);
+    fixture = TestBed.createComponent(AddDataPopupComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

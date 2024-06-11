@@ -1,0 +1,91 @@
+.main {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 44px 40px 40px 40px;
+
+  .header {
+    margin-bottom: 40px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    color: #231f20;
+  }
+
+  .mat-mdc-form-field {
+    width: 368px;
+    height: 56px;
+  }
+
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+
+  .buttons-block {
+    display: flex;
+    justify-content: flex-end;
+    gap: 4px;
+
+    &.cancel-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: none;
+      border-radius: 37px;
+      border: none;
+      width: 109px;
+      height: 53px;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 21.09px;
+      color: #2f67d5;
+    }
+
+    &.cancel-button:hover {
+      background-color: #3c7cf81a;
+    }
+    &.cancel-button:active {
+      background-color: #194eb633;
+    }
+
+    &.save-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #2f67d5;
+      border-radius: 37px;
+      border: none;
+      width: 134px;
+      height: 53px;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 21.09px;
+      color: #ffffff;
+    }
+
+    &.save-button:disabled {
+      cursor: auto;
+      background-color: #d8dee9;
+    }
+
+    &.save-button:hover {
+      background-color: #3c7cf8;
+    }
+
+    &.save-button:active {
+      background-color: #194eb6;
+    }
+  }
+}
+
+::ng-deep.mdc-floating-label--required:not(
+    .mdc-floating-label--hide-required-marker
+  )::after {
+  display: none !important;
+}

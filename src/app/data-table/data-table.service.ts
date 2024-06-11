@@ -13,4 +13,8 @@ export class DataTableService {
   getDataTableList() {
     return this._http.get(`https://test-data.directorix.cloud/task1`)
   }
+
+  postDataTableList (formData: any) {
+    return this._http.post(`https://test-data.directorix.cloud/task1`, formData)
+  }
 }
